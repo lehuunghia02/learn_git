@@ -32,6 +32,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 	private Button btt11;
 	private int test=0;
 	private int test2=0;
+	private int test3=0;
 	
 	private ToggleButton tgl;
 	
