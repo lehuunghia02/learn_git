@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/AppTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtview1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button3" />
+
+    <LinearLayout
+        android:id="@+id/button101"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/saokyvayem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button3"
+            android:gravity="center"
+            android:layout_weight="1" >
+        </Button>
+        <Button
+            android:id="@+id/saokyvayanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ck_sand" >
+        </Button>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/saokhongcho"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioGroup 
+            android:id="@+id/gr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+	        <RadioButton 
+	        	android:id="@+id/radio1"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/To"
+	        	android:onClick="radioOnClick"/>
+	        <RadioButton 
+	        	android:id="@+id/radio2"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/button2"
+	        	android:onClick="radioOnClick"/>
+	        <RadioButton 
+	        	android:id="@+id/radio3"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/button3"
+	        	android:onClick="radioOnClick"/>
+        </RadioGroup>
+ 
+    </LinearLayout>
+ 
+</LinearLayout>
