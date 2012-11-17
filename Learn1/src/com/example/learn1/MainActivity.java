@@ -18,7 +18,7 @@ import android.widget.Spinner;
 import android.widget.CompoundButton.*;
 import android.widget.TextView;
 import android.widget.ToggleButton;
-
+ 
 
 public class MainActivity extends Activity implements android.view.View.OnClickListener,OnCheckedChangeListener,OnItemSelectedListener {
 	
@@ -30,6 +30,8 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 	private Button btt6;
 	private Button btt10;
 	private Button btt11;
+	private int test=0;
+	private int test2=0;
 	
 	private ToggleButton tgl;
 	
