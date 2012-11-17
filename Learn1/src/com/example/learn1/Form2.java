@@ -9,7 +9,9 @@ import android.widget.Toast;
 
 
 public class Form2 extends Activity {
-
+	
+	private int test = 0 ;
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
